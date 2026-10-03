@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "VYNX",
+  "version": "0.1.0",
+  "description": "VYNX local media utility browser extension foundation.",
+  "action": {
+    "default_title": "VYNX",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": []
+}
+
